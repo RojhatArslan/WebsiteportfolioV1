@@ -1,0 +1,64 @@
+body {
+    font-family:'Arial',sans-serif;
+    background-color:bisque;
+    margin: 0;  
+    padding: 0;
+    color: #333;
+
+} 
+
+nav {
+    background-color: #006666;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: ;
+}
+
+nav ul {
+    list-style:none;
+    text-align:right;
+    margin: 10px  15px;
+    padding: 0;
+    display: inline-block;
+}
+
+nav ul li {
+    display: inline;
+    margin-right:20px:
+}
+
+nav ul li a {
+    color:white;
+    text-decoration:none;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration:underline;
+}
+
+/* Adding some space between the navbar and the content */
+header, section{
+    margin-top:70px;
+
+}
+
+header {
+    background-color:bisque;
+    color: #006666;
+    text-align: center;
+    padding: 50px 0;
+    
+
+}
+
+header h1 {
+    background-color:red;
+    text-align: center;
+    padding: 0px;
+}
+
